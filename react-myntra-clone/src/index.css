@@ -1,0 +1,694 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f6f6f6cb;
+}
+.myntra_logo {
+  height: 45px;
+}
+.logo_container {
+  margin-left: 4%;
+}
+.action_bar {
+  margin-right: 4%;
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 500px;
+}
+.nav_bar a {
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0 28px;
+  border-bottom: 3px transparent white;
+}
+.nav_bar a sup {
+  color: #f7194d;
+  font-size: 10px;
+}
+.nav_bar a:hover {
+  border-bottom: 3px solid #f54e77;
+}
+
+/*search bar*/
+.search_bar {
+  height: 40px;
+  min-width: 300px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  background-color: #f5f5f6;
+  padding: 10px;
+  color: #636365;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+}
+.search-input {
+  background-color: #f5f5f6;
+  color: #696e79;
+  border: none;
+  flex-grow: 1;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+}
+.action_bar {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 200px;
+}
+.action_container {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.action_profile {
+  font-weight: 700;
+  font-size: 12px;
+}
+.action_icon {
+  color: #636365;
+  font-size: 300;
+}
+/*main section*/
+.banner_image {
+  width: 100%;
+}
+.banner_container {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.categories_heading {
+  color: #3e4152;
+  font-size: 1.8em;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  margin: 50px 0 10px 30px;
+  max-height: 4em;
+}
+.categories_items {
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px 10%;
+}
+.sale_item {
+  width: 250px;
+}
+/*footer style*/
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.footer_column a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #696b79;
+  padding-bottom: 5px;
+}
+.footer_column p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #282c3f;
+  padding: 25px 0;
+}
+.downloads {
+  display: flex;
+  flex-wrap: wrap;
+}
+.playstore {
+  height: 45px;
+}
+.myntra_downloads p {
+  padding-bottom: 25px;
+  font-size: 12px;
+  color: #282c3f;
+  font-weight: 700;
+}
+.playstore {
+  padding-right: 10px;
+}
+#keep_TOUCH_TAG {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.Social_media_link {
+  padding: 0 5px;
+}
+.copy_right {
+  color: #94969f;
+  text-align: center;
+  padding: 15px 0;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f6f6f6cb;
+}
+.myntra_logo {
+  height: 45px;
+}
+.logo_container {
+  margin-left: 4%;
+}
+.action_bar {
+  margin-right: 4%;
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 500px;
+}
+.nav_bar a {
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0 28px;
+  border-bottom: 3px transparent white;
+}
+.nav_bar a sup {
+  color: #f7194d;
+  font-size: 10px;
+}
+.nav_bar a:hover {
+  border-bottom: 3px solid #f54e77;
+}
+
+/*search bar*/
+.search_bar {
+  height: 40px;
+  min-width: 300px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  background-color: #f5f5f6;
+  padding: 10px;
+  color: #636365;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+}
+.search-input {
+  background-color: #f5f5f6;
+  color: #696e79;
+  border: none;
+  flex-grow: 1;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+}
+.action_bar {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 200px;
+}
+.action_container {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-decoration: none;
+
+  align-items: center;
+}
+.action_profile {
+  font-weight: 700;
+  font-size: 12px;
+}
+.action_icon {
+  color: #636365;
+  font-size: 300;
+}
+.bag-item-count {
+  white-space: nowrap;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 6px;
+  height: 18px;
+  background: #ff3f6c;
+  position: relative;
+  top: -44px;
+  left: 13px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/*footer style*/
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.footer_column a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #696b79;
+  padding-bottom: 5px;
+}
+.footer_column p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #282c3f;
+  padding: 25px 0;
+}
+.downloads {
+  display: flex;
+  flex-wrap: wrap;
+}
+.playstore {
+  height: 45px;
+}
+.myntra_downloads p {
+  padding-bottom: 25px;
+  font-size: 12px;
+  color: #282c3f;
+  font-weight: 700;
+}
+.playstore {
+  padding-right: 10px;
+}
+#keep_TOUCH_TAG {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.Social_media_link {
+  padding: 0 5px;
+}
+.copy_right {
+  color: #94969f;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/*main styling*/
+.items-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  margin: 50px 10%;
+  justify-content: space-evenly;
+}
+.item-container {
+  width: 250px;
+  margin: 20px;
+}
+.item-image {
+  width: 100%;
+}
+.rating {
+  font: 12px;
+}
+
+.company-name {
+  font-size: 16px;
+  font-weight: 700;
+  color: #282c3f;
+
+  margin-top: 10px;
+}
+.item-name {
+  font-size: 14px;
+  color: #535766;
+  font-weight: 400;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.price {
+  margin-top: 5px;
+}
+.current-price {
+  font-size: 14px;
+  font-weight: 700;
+  color: #282c3f;
+}
+.original-price {
+  text-decoration: line-through;
+  color: #7e818c;
+  font-weight: 400;
+  margin-left: 5px;
+  font-size: 12px;
+}
+.discount {
+  color: #ff905a;
+  font-weight: 400;
+  font-size: 12px;
+  margin-left: 5px;
+}
+.btn-add-bag {
+  font-weight: 500;
+  font-size: 18px;
+  margin-top: 8px;
+  width: 100%;
+  padding: 5px 15px;
+  border-radius: 10px;
+  background-color: lightgreen;
+  border: none;
+  cursor: pointer;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Assistant, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  height: 80px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #f6f6f6cb;
+}
+.myntra_logo {
+  height: 45px;
+}
+.logo_container {
+  margin-left: 4%;
+}
+.action_bar {
+  margin-right: 4%;
+}
+.nav_bar {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 500px;
+}
+.nav_bar a {
+  font-size: 14px;
+  color: #282c3f;
+  font-weight: 700;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0 28px;
+  border-bottom: 3px transparent white;
+}
+.nav_bar a sup {
+  color: #f7194d;
+  font-size: 10px;
+}
+.nav_bar a:hover {
+  border-bottom: 3px solid #f54e77;
+}
+
+/*search bar*/
+.search_bar {
+  height: 40px;
+  min-width: 300px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+.search_icon {
+  box-sizing: content-box;
+  height: 20px;
+  background-color: #f5f5f6;
+  padding: 10px;
+  color: #636365;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+}
+.search-input {
+  background-color: #f5f5f6;
+  color: #696e79;
+  border: none;
+  flex-grow: 1;
+  height: 40px;
+  border-radius: 0 4px 4px 0;
+}
+.action_bar {
+  display: flex;
+  justify-content: space-evenly;
+  min-width: 200px;
+}
+.action_container {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-decoration: none;
+
+  align-items: center;
+}
+.action_profile {
+  font-weight: 700;
+  font-size: 12px;
+}
+.action_icon {
+  color: #636365;
+  font-size: 300;
+}
+.bag-item-count {
+  white-space: nowrap;
+  text-align: center;
+  line-height: 18px;
+  padding: 0 6px;
+  height: 18px;
+  background: #ff3f6c;
+  position: relative;
+  top: -44px;
+  left: 13px;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 700;
+}
+
+/*footer style*/
+.footer_container {
+  padding: 30px 0px 40px 0px;
+  background-color: #fafbfc;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer_column {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+.footer_column a {
+  font-size: 15px;
+  text-decoration: none;
+  color: #696b79;
+  padding-bottom: 5px;
+}
+.footer_column p {
+  font-size: 12px;
+  font-weight: 700;
+  color: #282c3f;
+  padding: 25px 0;
+}
+.downloads {
+  display: flex;
+  flex-wrap: wrap;
+}
+.playstore {
+  height: 45px;
+}
+.myntra_downloads p {
+  padding-bottom: 25px;
+  font-size: 12px;
+  color: #282c3f;
+  font-weight: 700;
+}
+.playstore {
+  padding-right: 10px;
+}
+#keep_TOUCH_TAG {
+  padding-top: 20px;
+  padding-bottom: 12px;
+}
+.Social_media_link {
+  padding: 0 5px;
+}
+.copy_right {
+  color: #94969f;
+  text-align: center;
+  padding: 15px 0;
+}
+
+/*main*/
+
+.bag-items-container {
+  display: inline-block;
+  width: 64%;
+  padding-right: 20px;
+  border-right: 1px solid #eaeaec;
+  padding-top: 32px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+}
+
+.bag-page {
+  width: 75%;
+  margin-left: 12.5%;
+}
+
+.bag-summary {
+  vertical-align: top;
+  display: inline-block;
+  width: 35%;
+  padding: 24px 0 0 16px;
+  color: #282c3f;
+  font-size: 13px;
+  line-height: 1.42857143;
+}
+
+.bag-details-container {
+  margin-bottom: 16px;
+}
+
+.price-header {
+  font-size: 12px;
+  font-weight: 700;
+  margin: 24px 0 16px;
+  color: #535766;
+}
+
+.price-item {
+  margin-bottom: 12px;
+  line-height: 16px;
+  font-size: 14px;
+  color: #282c3f;
+}
+
+.price-item-value {
+  float: right;
+}
+
+.priceDetail-base-discount {
+  color: #03a685;
+}
+
+.price-footer {
+  font-weight: 700;
+  font-size: 15px;
+  padding-top: 16px;
+  border-top: 1px solid #eaeaec;
+  color: #3e4152;
+  line-height: 16px;
+}
+
+.btn-place-order {
+  width: 100%;
+  letter-spacing: 1px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 2px;
+  border-width: 0px;
+  padding: 10px 16px;
+  background-color: rgb(255, 63, 108);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+.bag-item-container {
+  margin-bottom: 8px;
+  background: #fff;
+  font-size: 14px;
+  border: 1px solid #eaeaec;
+  border-radius: 4px;
+  position: relative;
+  padding: 12px 12px 0;
+}
+
+.item-left-part {
+  position: absolute;
+  background: rgb(255, 242, 223);
+  height: 148px;
+  width: 111px;
+}
+
+.item-right-part {
+  padding-left: 12px;
+  position: relative;
+  min-height: 148px;
+  margin-left: 111px;
+  margin-bottom: 12px;
+}
+
+.bag-item-img {
+  width: 100%;
+}
+
+.return-period {
+  display: inline-flex;
+  font-size: 14px;
+  padding-top: 8px;
+}
+
+.return-period-days {
+  font-weight: 700;
+  margin-right: 4px;
+}
+
+.delivery-details {
+  margin-top: 5px;
+  color: #282c3f;
+  font-size: 12px;
+  letter-spacing: -0.1px;
+  margin-bottom: 8px;
+  line-height: 15px;
+}
+
+.delivery-details-days {
+  color: #03a685;
+}
+
+.remove-from-cart {
+  position: absolute;
+  font-size: 25px;
+  top: 10px;
+  right: 18px;
+  width: 14px;
+  height: 14px;
+  cursor: pointer;
+}
